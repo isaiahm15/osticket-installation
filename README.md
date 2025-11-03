@@ -98,13 +98,22 @@ This tutorial will guide you through installing osTicket, a ticketing system tha
 <br/>
 </p>
 
-<p>Click "Continue" on your osTicket landing page and fill out the System Settings and Admin User section with custom passwords, usernames, and emails of choice (make sure you use different emails for each section here). Then,
-<br><img src="https://github.com/user-attachments/assets/6768633f-4309-41ab-9a12-14b2552de352" height="75%" width="100%"/>
+<p>Click "Continue" on your osTicket landing page and fill out the System Settings and Admin User section with custom passwords, usernames, and emails of choice (make sure you use different emails for each section here). Then, enter "osTicket" for the MySQL Database name in the "Database Settings" section (this name should match your open HeidiSQL session name). Lastly, enter your HeidiSQL username and password for the MySQL user/pass fields and click "Install Now".
+<br><img src="https://github.com/user-attachments/assets/6768633f-4309-41ab-9a12-14b2552de352" height="75%" width="100%"/><img src="https://github.com/user-attachments/assets/144ae970-26fa-4495-b05c-dd39c6b710af" height="75%" width="100%"/>
 <br/>
 </p>
 
-<p>In your Windows Server client, open Group Policy Management from the "Tools" drop-down menu in Server Manager.
-<br><img src="https://github.com/user-attachments/assets/dbaac5b8-58ff-404b-8b16-d887b2c99b97" height="75%" width="100%"/>
+<p>You've successfully installed osTicket!
+<br><img src="https://github.com/user-attachments/assets/ada2c076-662e-4be3-b7b3-498155907f2f" height="75%" width="100%"/>
 <br/>
 </p>
 
+<p>You can access the staff Control Panel (view tickets, manage staff, etc.) with your admin credentials at http://localhost/osTicket/scp.
+<br><img src="https://github.com/user-attachments/assets/f72a7133-3c56-4565-98e7-5e4dd6cafac2" height="75%" width="100%"/>
+<br/>
+</p>
+
+<p>And you can create your own tickets from the Support Center page at http://localhost/osTicket.
+<br><img src="https://github.com/user-attachments/assets/c2c1bd6c-134f-401f-8b65-be89529deba1" height="75%" width="100%"/>
+<br/>
+</p>
